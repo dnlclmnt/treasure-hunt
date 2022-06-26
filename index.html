@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titan+One&family=Ubuntu:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="treasurehunt.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSC7_ZNqyJtSjtvJtYXxjGA5_eZCZfX-kXSSKfEtdwcDBBfk0ffFqQQJrM4zohTuSPMBc&usqp=CAU"
+    />
+    <title>Treasure Hunt Game</title>
+  </head>
+  <body>
+    <div id="yo">
+      <h1>Pacific Beach</h1>
+    </div>
+    <img
+      src="https://cdn2.picryl.com/photo/2012/06/14/scallop-shell-f10142-1024.jpg"
+      alt="Photo of shells on beach"
+      height="400px"
+      width="400px"
+    />
+    <div>
+      <h2>Treasure Hunt</h2>
+      <ol>
+        <li>Click the question marks to reveal the pearl🔮</li>
+        <li>If you click on the shark 🦈, you lose</li>
+      </ol>
+      <table border="3">
+        <tr>
+          <td id="0" onclick="treasure(0)">?</td>
+          <td id="1" onclick="treasure(1)">?</td>
+          <td id="2" onclick="treasure(2)">?</td>
+        </tr>
+        <tr>
+          <td id="3" onclick="treasure(3)">?</td>
+          <td id="4" onclick="treasure(4)">?</td>
+          <td id="5" onclick="treasure(5)">?</td>
+        </tr>
+        <tr>
+          <td id="6" onclick="treasure(6)">?</td>
+          <td id="7" onclick="treasure(7)">?</td>
+          <td id="8" onclick="treasure(8)">?</td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div class="container">
+      <button type="button" name="button" onclick="location.reload()">
+        Restart Game
+      </button>
+    </div>
+    <footer>
+      <em><b>Daniel Clement | Christian Snyder</b></em>
+      <a href="https://www.google.com/" target="_blank"></a>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>

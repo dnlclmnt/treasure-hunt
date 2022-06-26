@@ -1,0 +1,79 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  font-family: "Titan One", cursive;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px brown, 4px 4px sandybrown;
+  color: white;
+}
+
+h2 {
+  font-family: "Titan One", cursive;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px brown, 4px 4px sandybrown;
+  color: white;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+li {
+  text-align: center;
+  font-size: 16px;
+}
+div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-size: 28px;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border-color: sandybrown;
+  table-layout: fixed;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid black;
+}
+
+#yo {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
